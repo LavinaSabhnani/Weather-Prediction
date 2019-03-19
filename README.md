@@ -1,5 +1,6 @@
 # KBS PROJECT 
 <br>
+<html>
 To Predict whether it will rain tomorrow or not? <br>
 
 1) Research question:  what is the group trying to learn or question to answer?  Who is interested (audience)? 
@@ -39,7 +40,8 @@ c)Tentative plan for analysis on GCP<br>
 
 6. Final Dashboard for the User:
 <p>The final dashboard will consist of predicted data in form of a graph and it will depict the results of different model. The dashboard will also have a graph showing the model used along with their evaluating score. </p>
- 
+
+</html> 
  
 
 
