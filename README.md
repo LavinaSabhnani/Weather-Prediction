@@ -45,6 +45,6 @@ c)Tentative plan for analysis on GCP<br><br>
  
  
 
-
+<p>At this stage we have already completed the steps 1 and 2 from our plan that is to create teh dashboards from user perspective and data analyst perspective. We have also completed the pre-processing of our dataset and EDA. We will from now on be focusing on the further steps to complete the project succesfully by predicting whether it will rain tomorrow or not accurately. </p>
 
 
