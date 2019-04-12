@@ -43,8 +43,15 @@ c)Tentative plan for analysis on GCP<br><br>
 <p>The final dashboard will consist of predicted data in form of a graph and it will depict the results of different model. The dashboard will also have a graph showing the model used along with their evaluating score. </p>
 
  
- 
 
 <p>At this stage we have already completed the steps 1 and 2 from our plan that is to create teh dashboards from user perspective and data analyst perspective. We have also completed the pre-processing of our dataset and EDA. We will from now on be focusing on the further steps to complete the project succesfully by predicting whether it will rain tomorrow or not accurately. </p>
+<br><br>
+<p> 3) References:
+<br>
+[1] Data Source, https://www.kaggle.com/jsphyg/weather-dataset-rattle-package<br>
+[2] Genifer Snipes, “Google Data Studio” , https://jlsc-pub.org/articles/abstract/10.7710/2162-3309.2214/<br>
+[3] P. Chandrashaker Reddy, A. Suresh Babu, “Survey on weather prediction using big data analytics”,  https://ieeexplore.ieee.org/abstract/document/8117883<br>
+[4] ZhanJie Wang , A B M Mazharul Mujib, “The Weather Forecast Using Data Mining Research Based on Cloud Computing”,   https://www.researchgate.net/publication/320795225_The_Weather_Forecast_Using_Data_Mining_Research_Based_on_Cloud_Computing<br>
+
 
 
