@@ -64,13 +64,13 @@ Also, the new University of Washington research to be published in Geophysical R
 	
 <p> Moving ahead we notice that Australia is a drought prone continent. It has seen a lot of draught over the years and some of the cities experienced very less rainfall when compared to others. From the dataset, we already have the amount of rainfall of a particular city that experienced rainfall for a particular year. From that, we were able to see which cities had a greater rainfall when compared to others. We came up with two visulazations to support our case. <p> <br>
 
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/droughtimg1.png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/droughtimg1.jpg)
 
 <br> 
 <p> The visualization above shows the distribution of rainfall according to different cities. It can be seen that Cobar has the least amount of rainfall observed over the year. Since it is a drought prone continent, it makes sense to look over the cities which has a lesser rainfall as they are more prone to be affected by the drought. Upon analyzing more and going through more datasets pertaining to rainfall in Australia it was found that the lowest amount of rainfall was observed during the years 2008-2009. This is the time when Australia observed it's most hottest season. If we look at the above visualization, we can analyze that during these times, cities like Cobar needed more attention as it was most affected by it. <p>
 <br>
 
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/droughtimg2.png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/droughtimg2.jpg)
 
 <br>
 <p> The climatic pattern of Australia doesn’t indicate anything substantial and it keeps on changing. To acknowledge that, We tried looking into some more data related to climate of Australia and got to know about the historical pattern. There are lot of maps and graphs available to public on Australian government website which were used to analyze more about the weather and climate conditions in Australia. <p><br>
