@@ -56,8 +56,31 @@ focusing on the further steps to complete the project succesfully by predicting 
 
 <img src="Images/dashboard_img_1.png" alt="Dashboard_SS" class="inline"/>
 <br><br>
+
+<p> 4) Adding new features to the dataset:<br>
+
+<p> We have added 4 new features to our dataset namely: Altitude, MoonPhase, Longitude and Latitude. We notice that MoonPhase field had more weightage in rainfall prediction. So we use MoonPhase field in our prediction and run the previous models as mentioned above again including the MoonPhase field in our dataset. Our motive was to learn more about the google cloud and see how we can add the moonphase attribute into the dataset. Upon doing that, we ran the models again on the dataset as talked earlier and compared the accuracy we got from both the models. We also added altitude, latitude and longitude but they did not provide much information about the changes or the effects on rainfall. <p><br>
 	
-<p> 4) References:<br>
+<p> We might be wondering what MoonPhase is so let us dive deep into what it means. <p><br>
+	
+<p> The moon is said to influence the chances of rainfall. When the moon is high in the sky, it creates bulges in the planet's atmosphere that creates imperceptible changes in the amount of rain that falls below. <br>
+Also, the new University of Washington research to be published in Geophysical Research Letters shows that the lunar forces affect the amount of rain - though very slightly. Tsubasa Kohyama, a UW doctoral student in atmospheric sciences and John Wallace, UW professor of atmospheric sciences have studied the changes in Air pressure with change in phases of the moon. When the moon is overhead, its gravity causes Earth's atmosphere to bulge toward it, so the pressure or weight of the atmosphere on that side of the planet goes up. High pressure increases the temperature of air parcels below. Since warmer air can hold more moisture, the same air parcels are now farther from their moisture capacity. The change is only about 1 percent of the total rainfall variation, though, not enough to affect other aspects of the weather or for people to notice the difference. Instead, this effect could be used to test climate models, he said, to check if their physics is good enough to reproduce how the pull of the moon eventually leads to less rain. Though the researches are still exploring the topic to see whether certain categories of rain, like heavy downpours, are more susceptible to the phases of the moon, and whether the frequency of rainstorms shows any lunar connection.<p><br>
+	
+<p> Moving ahead we notice that Australia is a drought prone continent. It has seen a lot of draught over the years and some of the cities experienced very less rainfall when compared to others. From the dataset, we already have the amount of rainfall of a particular city that experienced rainfall for a particular year. From that, we were able to see which cities had a greater rainfall when compared to others. We came up with two visualizations to support our case. <p> <br>
+
+<img src="Images/droughtimg1.jpg" alt="Dashboard_SS" class="inline"/>
+
+<br> 
+<p> The visualization above shows the distribution of rainfall according to different cities. It can be seen that Cobar has the least amount of rainfall observed over the year. Since it is a drought prone continent, it makes sense to look over the cities which has a lesser rainfall as they are more prone to be affected by the drought. Upon analyzing more and going through more datasets pertaining to rainfall in Australia it was found that the lowest amount of rainfall was observed during the years 2008-2009. This is the time when Australia observed it's most hottest season. If we look at the above visualization, we can analyze that during these times, cities like Cobar needed more attention as it was most affected by it. <p>
+<br>
+
+<img src="Images/droughtimg2.jpg" alt="Dashboard_SS" class="inline"/>
+
+<br>
+<p> The climatic pattern of Australia doesn’t indicate anything substantial and it keeps on changing. To acknowledge that, We tried looking into some more data related to climate of Australia and got to know about the historical pattern. There are lot of maps and graphs available to public on Australian government website which were used to analyze more about the weather and climate conditions in Australia. <p><br>
+<br>	
+
+<p> 5) References:<br>
 <br>
 [1] Data Source, https://www.kaggle.com/jsphyg/weather-dataset-rattle-package<br>
 [2] Genifer Snipes, “Google Data Studio” , https://jlsc-pub.org/articles/abstract/10.7710/2162-3309.2214/<br>
