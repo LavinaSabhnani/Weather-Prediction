@@ -102,17 +102,58 @@ We see that eastern Australia has been experiencing drier weather than normal co
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/rainfallmaps1.jpeg)
 <br>
 
+<p>5) Machine Learning Models:<p><br>
+<p>[1] Baseline Model - Logistic Regression:<p>
+<p>We've implemented Logistic regression to explain realtionships between variables wherein Rainfall tomorrow is the dependant binary variable. We've implemented the models with and without consideration of MoonPhase function. We've converted the MoonPhase function to numerical equivalent to learn its effects on rainfall. <p>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm1.png)
 
 <br>	
+<p>We’ve calculated Precision, Recall, F1-score, Support, area under the curve, and Accuracy score for the models. For Logistic regression: <p><br>
 
-<p> 5) References:<br>
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm2.png)
+
+<br>
+
+<p>The model performance: Confusion matrix and feature performance<p><br>
+
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm3.png)
+
+<br>
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm4.png)
+
+<br>
+
+<p>[2] Random Forest:<p><br>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm5.png)
+
+<br>
+
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm6.png)
+
+<br>
+
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm7.png)
+
+<br>
+
+<p>Comparing the Models:<p><br>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm8.png)
+<br>
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm9.png)
+<br>
+<br>
+
+<p> 6) References:<br>
 <br>
 [1] Data Source, https://www.kaggle.com/jsphyg/weather-dataset-rattle-package<br>
 [2] Genifer Snipes, “Google Data Studio” , https://jlsc-pub.org/articles/abstract/10.7710/2162-3309.2214/<br>
 [3] P. Chandrashaker Reddy, A. Suresh Babu, “Survey on weather prediction using big data analytics”,  https://ieeexplore.ieee.org/abstract/document/8117883<br>
 [4] ZhanJie Wang , A B M Mazharul Mujib, “The Weather Forecast Using Data Mining Research Based on Cloud Computing”,   https://www.researchgate.net/publication/320795225_The_Weather_Forecast_Using_Data_Mining_Research_Based_on_Cloud_Computing<br>
 	
-<p> 6) Team Members and duties: <p><br>
+<p> 7) Team Members and duties: <p><br>
 	
 <p>Harshal Sharma: Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
 <p>Lavina Sabhnani: Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
