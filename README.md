@@ -112,7 +112,7 @@ We see that eastern Australia has been experiencing drier weather than normal co
 [3] P. Chandrashaker Reddy, A. Suresh Babu, “Survey on weather prediction using big data analytics”,  https://ieeexplore.ieee.org/abstract/document/8117883<br>
 [4] ZhanJie Wang , A B M Mazharul Mujib, “The Weather Forecast Using Data Mining Research Based on Cloud Computing”,   https://www.researchgate.net/publication/320795225_The_Weather_Forecast_Using_Data_Mining_Research_Based_on_Cloud_Computing<br>
 	
-<p> Team Members and duties: <p><br>
+<p> 6) Team Members and duties: <p><br>
 	
 <p>Harshal Sharma: Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
 <p>Lavina Sabhnani: Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
