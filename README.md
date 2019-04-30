@@ -157,7 +157,7 @@ We see that eastern Australia has been experiencing drier weather than normal co
 	
 <p>Harshal Sharma: Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
 <p>Lavina Sabhnani: Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
-<p>Sairam Rajagopalan: Created and updated the github repository and website. Performed preprocessing on the dataset. Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.<p><br>
+<p>Sairam Rajagopalan: Created and updated the github repository and website. Performed preprocessing on the dataset. Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same. Performed exploratory data analysis to determine the important features from the dataset.<p><br>
 <p>Sonika Kannegalla: Performed changes to the dataset using MoonPhase function. Researched more into the drought aspect of Australian climate. Framed research questions. Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset.<p><br>	
 
 
