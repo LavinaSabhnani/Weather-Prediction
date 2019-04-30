@@ -56,7 +56,7 @@ c)Tentative plan for analysis on GCP<br><br>
 
 <p> 4) Adding new features to the dataset:<br>
 
-<p> We have added 4 new features to our dataset namely: Altitude, MoonPhase, Longitude and Latitude. We notice that MoonPhase field had more weightage in rainfall prediction. So we use MoonPhase field in our prediction and run the previous models as mentioned above again including the MoonPhase field in our dataset. Our motive was to learn more about the google cloud and see how we can add the moonphase attribute into the dataset. Upon doing that, we ran the models again on the dataset as talked earlier and compared the accuracy we got from both the models. We also added altitude, latitude and longitude but they did not provide much information about the changes or the effects on rainfall. <p><br>
+<p> We have added 4 new features to our dataset namely: Altitude, MoonPhase, Longitude and Latitude. The changes were so small that it made only .01 difference in the whole prediction. Upon researching more about the dataset we have added MoonPhase paramemeter, we observed that there were not so demonstrated changes in the prediction as out dataset was already using lot of important parameters used in predicting rain and MoonPhase did not have greater weightage than them. So we use MoonPhase field in our prediction and run the previous models as mentioned above again including the MoonPhase field in our dataset. Our motive was to learn more about the google cloud and see how we can add the moonphase attribute into the dataset. Upon doing that, we ran the models again on the dataset as talked earlier and compared the accuracy we got from both the models. We also added altitude, latitude and longitude but again they did not provide much information about the changes or the effects on rainfall. <p><br>
 	
 <p> We might be wondering what MoonPhase is so let us dive deep into what it means. <p><br>
 	
@@ -75,6 +75,34 @@ Also, the new University of Washington research to be published in Geophysical R
 
 <br>
 <p> The climatic pattern of Australia doesn’t indicate anything substantial and it keeps on changing. To acknowledge that, We tried looking into some more data related to climate of Australia and got to know about the historical pattern. There are lot of maps and graphs available to public on Australian government website which were used to analyze more about the weather and climate conditions in Australia. <p><br>
+
+<p> Effect of Rainfall in Drought prediction:<p><br>
+
+<p>The report shows the studies of the weather and compares rainfall period with the long-term average, and then projects if it is below average and by how much.
+
+We see that eastern Australia has been experiencing drier weather than normal conditions since 2013, despite reasonable rainfall in 2016.<p>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/rainfallmaps.jpeg)
+
+<br>
+<p>Observations:<p><br>
+
+<p>The research shows a change in rainfall patterns in Australia in the past century:
+
+<P>- It was found that the most recent period, the rainfall in the south is quite unusual – there seems to be less rainfall, especially during the cool season.
+- The other observation was that, the northern Australia was getting wetter than ever before in the warm season specifically.<P><br>
+
+<p>Below is the timeline shows the annual rainfall "anomaly", that is how high or low the total for a given year is in relation to the long-term average. The maps show the geographic distribution of rainfall, or lack of rainfall:<p>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/graphrainfall.png)
+<br>
+
+<p> We have really high variability in the rainfall and temperature. So, when it does rain, more of that water is likely to be lost to the atmosphere through evaporation than before human-caused climate change.<p><br>
+	
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/rainfallmaps1.jpeg)
+<br>
+
+
 <br>	
 
 <p> 5) References:<br>
@@ -83,6 +111,13 @@ Also, the new University of Washington research to be published in Geophysical R
 [2] Genifer Snipes, “Google Data Studio” , https://jlsc-pub.org/articles/abstract/10.7710/2162-3309.2214/<br>
 [3] P. Chandrashaker Reddy, A. Suresh Babu, “Survey on weather prediction using big data analytics”,  https://ieeexplore.ieee.org/abstract/document/8117883<br>
 [4] ZhanJie Wang , A B M Mazharul Mujib, “The Weather Forecast Using Data Mining Research Based on Cloud Computing”,   https://www.researchgate.net/publication/320795225_The_Weather_Forecast_Using_Data_Mining_Research_Based_on_Cloud_Computing<br>
+	
+<p> Team Members and duties: <p><br>
+	
+<p>Harshal Sharma: Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
+<p>Lavina Sabhnani: Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
+<p>Sairam Rajagopalan: Created and updated the github repository and website. Performed preprocessing on the dataset. Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.<p><br>
+<p>Sonika Kannegalla: Performed changes to the dataset using MoonPhase function. Researched more into the drought aspect of Australian climate. Framed research questions. Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset.<p><br>	
 
 
 
