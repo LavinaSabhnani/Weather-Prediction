@@ -56,18 +56,18 @@
 
 Screenshots of EDA done using Python in Google Cloud Platform - Data Flow for User<br><br>
 
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDA For Users.png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDAForUsers.png)
 <br>
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDA For Users(1).png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDAForUsers(1).png)
 
 <br><br>
 Screenshots of EDA done using Python in Google Cloud Platform - Data Flow for Analyst<br><br>
 
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDA For Analyst(2).png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDAForAnalyst(2).png)
 <br>
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDA For Analyst(3).png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDAForAnalyst(3).png)
 <br>
-![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDA For Analyst(4).png)
+![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/EDAForAnalyst(4).png)
 
 <br><br>
 
