@@ -1,13 +1,14 @@
 # KBS PROJECT 
 <br>
 
-<h1> To Predict whether it will rain tomorrow or not? </h1> <br>
+<h1> To Predict whether it will Rain Tomorrow or Not? </h1> <br>
 
-<h3>1) Research question: What is the group trying to learn or question to answer?  Who is interested (audience)? </h3>
+<h2>1) Research question </h2><br>
+<p>What is the group trying to learn or question to answer?  Who is interested (audience)? </p><br>
 <p> We are predicting whether it will rain or not tomorrow by using machine learning algorithms such as Logistic regression and KNN models. People who plan their day according to weather conditions will be strongly benefitted. It will also help people whether to carry an umbrella or not. <br>
  
-<h3> 2) Domain and Data: Identify domain and source(s) of data </h3>
-	<p>Domain: Weather forecasting. Precisely to predict whether it will rain tomorrow or not? </P>
+<h2> 2) Domain and Data: Identify domain and source(s) of data </h2>
+	<p>Domain: Weather forecasting. Precisely to predict whether it will rain tomorrow or not? </p>
   <p>Source: The dataset we took is from Kaggle and the link to the dataset is https://www.kaggle.com/jsphyg/weather-dataset-rattle-package</p>
 <br>
 
@@ -22,27 +23,26 @@
 <h3>b)Size of Data:</h3>
 <P>This dataset contains daily weather observations from numerous Australian weather stations and it has 142k rows over 24 columns which describe various factors that contribute in rainfall prediction.<br>
  
-<h2>c)Tentative plan for analysis on GCP</h2><br><br>
+<h3>c)Tentative plan for analysis on GCP</h3><br><br>
 
-<h3>1. EDA and preprocessing:</h3>
+<h4>i. EDA and preprocessing:</h4>
 <p>The preprocessing part involves observing columns and their importance in order to predict if it’s going to rain tomorrow or not. We’ll be getting rid of columns which doesn’t contribute to the prediction and keeping those which will make an impact when selected as features for the model. Exploratory data analysis will involve visualizing the dataset by using different features form the dataset. To name some we can create a graph for location distribution of the rain then we can analyze if the location column plays an important role in predicting our target feature. Other features such as WinDir3pm or WinDir9pm can also be used to create a distribution graph to observe the difference and infer observations from that.</p>
 
-<h3>2. Dashboard for User group, Dashboard for Data Engineers:</h3>
+<h4>ii. Dashboard for User group, Dashboard for Data Engineers:</h4>
 <p>Dashboard for user will consist of basic graphs such as a donut graph depicting rain today variation (yes or no). The aim of the dashboard will be to convey less complex information in terms of visuals so that one can easily correlate between different features used to predict the target variable. Dashboards for Data Engineers will have graphs depicting correlation b/w different features and what can be used as a dominant feature for prediction and what can be ignored. The crux of this process would be assessing the dashboard and the graphs and proper knowledge about the database.</p>
 
-<h3>3. GCP further processing - ML:</h3>
+<h4>iii. GCP further processing - ML:</h4>
 <p>GCP will be used to run the models using pyspark. We’ll be using both datalab and ssh terminal to try and run the models. Our definite goal is to run Logistic regression and KNN models on the dataset. If we’re successfully able to do that, we would be to try running more complex model such as decision tree or random forest to learn in-depth about running machine learning model in GCP.</p>
 
-<h3>4. Evaluating the result:</h3>
+<h4>iv. Evaluating the result:</h4>
 <p>We’ll be running two models, Logistic Regression and KNN on the given dataset.     In order to evaluate the result of these two model and how good are they at predicting the target variable we’ll be using different measure to calculate the effectiveness of a model such as accuracy score, recall score or its precision. We’ll be comparing all the values for the said models and give a result as to which model works better for the current dataset.</p> 
 
-<h3>5. Steps for production model:</h3>
+<h4>v. Steps for production model:</h4>
 <p>The models that we’ll be training on the dataset- Logistic Regression, and KNN will be deployed using DataFlow. The dataset will be read using BigQuery, then for every record, model prediction will be carried out, and the results are written back to BigQuery. </p>
 
-<h3>6. Final Dashboard for the User:</h3>
+<h4>vi. Final Dashboard for the User:</h4>
 <p>The final dashboard will consist of predicted data in form of a graph and it will depict the results of different model. The dashboard will also have a graph showing the model used along with their evaluating score. </p>
 
- 
 
 <p>At this stage we have already completed the steps 1 and 2 from our plan that is to create teh dashboards from user perspective and data analyst perspective. We have also completed the pre-processing of our dataset and EDA. We will from now on be focusing on the further steps to complete the project succesfully by predicting whether it will rain tomorrow or not accurately. </p>
 <br><br>
@@ -92,7 +92,7 @@ We see that eastern Australia has been experiencing drier weather than normal co
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/rainfallmaps.jpeg)
 
 <br>
-<p>Observations:<p><br>
+<h3><p>Observations:<p></h3><br>
 
 <p>The research shows a change in rainfall patterns in Australia in the past century:
 
@@ -116,13 +116,13 @@ We see that eastern Australia has been experiencing drier weather than normal co
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm1.png)
 
 <br>	
-<p>We’ve calculated Precision, Recall, F1-score, Support, area under the curve, and Accuracy score for the models. For Logistic regression: <p><br>
+<h4><p>We’ve calculated Precision, Recall, F1-score, Support, area under the curve, and Accuracy score for the models. For Logistic regression: <p></h4><br>
 
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm2.png)
 
 <br>
 
-<p>The model performance: Confusion matrix and feature performance<p><br>
+<h4><p>The model performance: Confusion matrix and feature performance<p></h4><br>
 
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm3.png)
 
@@ -162,10 +162,10 @@ We see that eastern Australia has been experiencing drier weather than normal co
 	
 <h2><p> 7) Team Members and duties: <p></h2><br>
 	
-<p>Harshal Sharma: Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
-<p>Lavina Sabhnani: Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
-<p>Sairam Rajagopalan: Created and updated the github repository and website. Performed preprocessing on the dataset. Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same. Performed exploratory data analysis to determine the important features from the dataset.<p><br>
-<p>Sonika Kannegalla: Performed changes to the dataset using MoonPhase function. Researched more into the drought aspect of Australian climate. Framed research questions. Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset.<p><br>	
+<p><b>Harshal Sharma:</b> Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same.  Framed project flow and helped with deciding the steps required for the project. Prepared dashboards using Google DataStudio.<p><br> 
+<p><b>Lavina Sabhnani:</b> Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset. Performed preprocessing on the dataset. Visualized the data and results using python notebook on dataflow.<p><br> 
+<p><b>Sairam Rajagopalan:</b> Created and updated the github repository and website. Performed preprocessing on the dataset. Ran logistic using BigQuery. This was part of a group assignment. It was done by following the steps given in the tutorial for the same. Performed exploratory data analysis to determine the important features from the dataset.<p><br>
+<p><b>Sonika Kannegalla:</b> Performed changes to the dataset using MoonPhase function. Researched more into the drought aspect of Australian climate. Framed research questions. Ran models such as logistic regression and random forest on the dataset with Dataflow on google cloud before and after adding new features to the already present dataset.<p><br>	
 
-
+<h2> Thank You! </h2>
 
