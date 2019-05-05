@@ -142,6 +142,7 @@ We see that eastern Australia has been experiencing drier weather than normal co
 <br>
 
 <h3><p>[2] Random Forest:<p></h3><br>
+<p> The function below shows the values given for different parameters in order to tune the RandomForestClassifier function. The class_weight function where Weights associated with classes in the form {class_label: weight} are provided. If not given, all classes are supposed to have weight one which is the case here. The criterion parameter which is gini by default is changed to entropy here, which is basically the quality of split based on information gain as we are using entropy instead of gini. Maximum depth of tree is 3 nodes. Minimum sample split, minimum sample leaf are kept to their default value. All the parameters makes it easy for us to tweak the model as needed. Mostly the affect is observed the most when we change the number of nodes for the depth. Here the dataset is pretty straight forward and we need not change a lot of parameters from their default value and we have done so. That being said, we have made changes to some of them such as max_depth and criterion as changing them makes substantial difference. With random forest classifier, sometimes the approach taken has to be a trail and error approach where we have to tweak the parameters to get the desired result. Upon running the Random Forest Classifier on our data the result we got an accuracy score of 84% which Is pretty good.</p>
 	
 ![alt text](https://github.com/sairam0808/sairam0808.github.io/blob/master/Images/mlm5.png)
 
