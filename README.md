@@ -22,7 +22,7 @@
 
 <h3>b)Size of Data:</h3>
 <P>This dataset contains daily weather observations from numerous Australian weather stations and it has 142k rows over 24 columns which describe various factors that contribute in rainfall prediction.<br>
- 
+ <br>
 <h3>c)Tentative plan for analysis on GCP includes the following steps</h3>
 <h4>i. EDA and preprocessing:</h4>
 <p>The preprocessing part involves observing columns and their importance in order to predict if it’s going to rain tomorrow or not. We’ll be getting rid of columns which doesn’t contribute to the prediction and keeping those which will make an impact when selected as features for the model. Exploratory data analysis will involve visualizing the dataset by using different features form the dataset. To name some we can create a graph for location distribution of the rain then we can analyze if the location column plays an important role in predicting our target feature. Other features such as WinDir3pm or WinDir9pm can also be used to create a distribution graph to observe the difference and infer observations from that.</p>
