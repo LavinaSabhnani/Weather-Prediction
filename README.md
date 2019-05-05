@@ -1,7 +1,7 @@
 # KBS PROJECT 
 <br>
 
-<h1> To Predict whether it will Rain Tomorrow or Not? </h1> <br>
+<h1> Rain Prediction and Draught Analysis for Australia - A Cloud based Machine Learning Application</h1> <br>
 
 <h2>1) Research question </h2><br>
 <p>What is the group trying to learn or question to answer?  Who is interested (audience)? </p><br>
