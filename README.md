@@ -23,8 +23,7 @@
 <h3>b)Size of Data:</h3>
 <P>This dataset contains daily weather observations from numerous Australian weather stations and it has 142k rows over 24 columns which describe various factors that contribute in rainfall prediction.<br>
  
-<h3>c)Tentative plan for analysis on GCP</h3><br>
-
+<h3>c)Tentative plan for analysis on GCP includes the following steps</h3>
 <h4>i. EDA and preprocessing:</h4>
 <p>The preprocessing part involves observing columns and their importance in order to predict if it’s going to rain tomorrow or not. We’ll be getting rid of columns which doesn’t contribute to the prediction and keeping those which will make an impact when selected as features for the model. Exploratory data analysis will involve visualizing the dataset by using different features form the dataset. To name some we can create a graph for location distribution of the rain then we can analyze if the location column plays an important role in predicting our target feature. Other features such as WinDir3pm or WinDir9pm can also be used to create a distribution graph to observe the difference and infer observations from that.</p>
 
@@ -35,7 +34,7 @@
 <p>GCP will be used to run the models using pyspark. We’ll be using both datalab and ssh terminal to try and run the models. Our definite goal is to run Logistic regression and KNN models on the dataset. If we’re successfully able to do that, we would be to try running more complex model such as decision tree or random forest to learn in-depth about running machine learning model in GCP.</p>
 
 <h4>iv. Evaluating the result:</h4>
-<p>We’ll be running two models, Logistic Regression and KNN on the given dataset.     In order to evaluate the result of these two model and how good are they at predicting the target variable we’ll be using different measure to calculate the effectiveness of a model such as accuracy score, recall score or its precision. We’ll be comparing all the values for the said models and give a result as to which model works better for the current dataset.</p> 
+<p>We’ll be running two models, Logistic Regression and Random Forest on the given dataset.     In order to evaluate the result of these two model and how good are they at predicting the target variable we’ll be using different measure to calculate the effectiveness of a model such as accuracy score, recall score or its precision. We’ll be comparing all the values for the said models and give a result as to which model works better for the current dataset.</p> 
 
 <h4>v. Steps for production model:</h4>
 <p>The models that we’ll be training on the dataset- Logistic Regression, and KNN will be deployed using DataFlow. The dataset will be read using BigQuery, then for every record, model prediction will be carried out, and the results are written back to BigQuery. </p>
@@ -44,7 +43,7 @@
 <p>The final dashboard will consist of predicted data in form of a graph and it will depict the results of different model. The dashboard will also have a graph showing the model used along with their evaluating score. </p>
 
 
-<p>At this stage we have already completed the steps 1 and 2 from our plan that is to create teh dashboards from user perspective and data analyst perspective. We have also completed the pre-processing of our dataset and EDA. We will from now on be focusing on the further steps to complete the project succesfully by predicting whether it will rain tomorrow or not accurately. </p>
+<p>At this stage of deliverable 2 we had already completed the steps 1 and 2 from our plan that is to create the dashboards from user perspective and data analyst perspective. We had also completed the pre-processing of our dataset and EDA. We will from now on be focusing on the further steps to complete the project succesfully by predicting whether it will rain tomorrow or not accurately. </p>
 <br><br>
 
 <h2><p> 3) Dashboard <br> </h2>
